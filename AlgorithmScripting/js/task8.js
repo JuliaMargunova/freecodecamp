@@ -14,6 +14,7 @@ function digitalRoot(n) {
     } 
     return newStr;
 }
+
 console.log(digitalRoot(16));
 //   16  -->  1 + 6 = 7
 //   942  -->  9 + 4 + 2 = 15  -->  1 + 5 = 6
