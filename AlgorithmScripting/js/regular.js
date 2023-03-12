@@ -7,7 +7,12 @@
 // let starRegex = /twinkle/gi; // Change this line
 // let result = twinkleStar.match(starRegex); // Change this line
 
-//Match Anything with Wildcard Period
-let exampleStr = "Let's have fun with regular expressions!";
-let unRegex = /.un/gi; // Change this line
-let result = unRegex.test(exampleStr);
+// //Match Anything with Wildcard Period
+// let exampleStr = "Let's have fun with regular expressions!";
+// let unRegex = /.un/gi; // Change this line
+// let result = unRegex.test(exampleStr);
+
+//Match Single Character with Multiple Possibilities
+let quoteSample = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
+let vowelRegex = /[aeiou]/gi; // Change this line
+let result = quoteSample.match(vowelRegex); // Change this line
